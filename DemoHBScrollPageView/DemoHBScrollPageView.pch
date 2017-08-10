@@ -1,0 +1,25 @@
+//
+//  DemoHBScrollPageView.pch
+//  DemoHBScrollPageView
+//
+//  Created by Founder on 16/2/2.
+//  Copyright © 2016年 hongbao.cui. All rights reserved.
+//
+
+#ifndef DemoHBScrollPageView_pch
+#define DemoHBScrollPageView_pch
+#define SCREEN    [UIScreen mainScreen].bounds
+#define SCREENWIDTH   [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT   [UIScreen mainScreen].bounds.size.height
+#define STATUSHEIGHT  20
+#define TABBARHEIGHT  49
+#define NAVHEIGHT  44
+#define MENUWIDTH   60  //左侧菜单栏的宽度
+#define SLIDERMENUHEIGHT  75// 滑动菜单的高度
+#define ONEPAGECOUNT   20  //一页所含有的items总数
+
+#define THRMECOLOR  @"#c30005"   //主题红
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* DemoHBScrollPageView_pch */
